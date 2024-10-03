@@ -18,8 +18,8 @@ To build the Docker image, follow these steps:
 1. Clone the repository to your local environment:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/ffmassa/geoserver-gdal-ewc.git
+   cd geoserver-gdal-ewc
    ```
 
 2. Make sure the `ECWJP2SDKSetup_5.5.0.2268.bin` file has been downloaded and placed in the root of the project.
