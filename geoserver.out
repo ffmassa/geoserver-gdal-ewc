@@ -1,0 +1,79 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2024 17:13:05.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-45-generic
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.24+8-post-Ubuntu-1ubuntu322.04
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+03-Oct-2024 17:13:05.169 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/local/lib/jni:/usr/lib::/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+03-Oct-2024 17:13:05.358 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Oct-2024 17:13:05.376 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [324] milliseconds
+03-Oct-2024 17:13:05.408 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2024 17:13:05.408 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+03-Oct-2024 17:13:05.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+03-Oct-2024 17:13:05.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [126] ms
+03-Oct-2024 17:13:05.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+03-Oct-2024 17:13:05.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [15] ms
+03-Oct-2024 17:13:05.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+03-Oct-2024 17:13:05.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [15] ms
+03-Oct-2024 17:13:05.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/manager]
+03-Oct-2024 17:13:05.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/manager] has finished in [13] ms
+03-Oct-2024 17:13:05.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+03-Oct-2024 17:13:05.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [86] ms
+03-Oct-2024 17:13:05.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/geoserver]
+03-Oct-2024 17:13:08.095 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:13:08 CONFIG [geoserver.logging] - Logging policy: Log4J2
+03-Oct-2024 17:13:08.487 INFO [main] it.geosolutions.imageio.gdalframework.GDALUtilities.loadGDAL GDAL Native Library loaded (version: 3.8.5)
+17:13:08 WARN   [geoserver.logging] - Could not find GeoServer logging.xml (or old services.xml) settings for logging
+17:13:09 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+17:13:09 CONFIG [org.geoserver] - Loading catalog /gsdata
+17:13:09 CONFIG [org.geoserver] - Loaded style 'generic'
+17:13:09 CONFIG [org.geoserver] - Loaded style 'polygon'
+17:13:09 CONFIG [org.geoserver] - Loaded style 'line'
+17:13:09 CONFIG [org.geoserver] - Loaded style 'raster'
+17:13:09 CONFIG [org.geoserver] - Loaded style 'point'
+17:13:09 WARN   [org.geoserver] - No 'workspaces' directory found, unable to load any stores.
+17:13:09 CONFIG [org.geoserver] - Read catalog in 29.08 ms
+17:13:09 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--f2f8a72:192535f078d:-8000', enabled
+17:13:09 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl--f2f8a72:192535f078d:-7fff', enabled
+17:13:09 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl--f2f8a72:192535f078d:-7ffe', enabled
+17:13:09 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl--f2f8a72:192535f078d:-7ffd', enabled
+17:13:09 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/gsdata/gwc'.
+17:13:09 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+17:13:09 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+17:13:09 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+17:13:09 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+17:13:09 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+17:13:09 CONFIG [gwc.layer] - Loaded 0 tile layers in 1.521 ms
+17:13:09 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+17:13:10 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+17:13:10 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+17:13:10 WARN   [gce.imagemosaic] - Unable to set ordering between jp2 readers spi-it.geosolutions.imageio.plugins.jp2ecw.JP2GDALEcwImageReaderSpi:com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageReaderSpi
+17:13:11 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/gsdata/gwc'.
+17:13:11 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/gsdata/gwc'.
+17:13:12 WARN   [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
+17:13:12 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+17:13:12 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+03-Oct-2024 17:13:12.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/geoserver] has finished in [7,177] ms
+03-Oct-2024 17:13:12.847 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Oct-2024 17:13:12.858 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7481] milliseconds
