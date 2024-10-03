@@ -57,3 +57,7 @@ http://localhost:8081/geoserver
 ## Final Considerations
 
 This project provides a complete GeoServer installation with advanced raster support and is ready for use in development and production environments. Be sure to adjust file and volume permissions as needed for your environment.
+
+## Acknowledgments
+
+Special thanks to the [docker-gdal-ecw project](https://github.com/elmoneto/docker-gdal-ecw/tree/main) for helping in setting up GDAL with ECW 5.5. Thanks to this project, I was able to set up the GeoServer 2.26.x environment using the latest version of the ECW library.
