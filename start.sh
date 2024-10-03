@@ -28,7 +28,7 @@ elif [ "$(docker ps -aq -f name=$CONTAINER_NAME)" ]; then
 else
     # Iniciar um novo container com bind mount
     echo "Iniciando um novo container $CONTAINER_NAME na porta $PORT com bind $HOST_DATA_DIR..."
-    docker run -d -p $PORT:8080 --name $CONTAINER_NAME \
+    docker run -d -p $PORT:8081 --name $CONTAINER_NAME \
       -v $HOST_DATA_DIR:$CONTAINER_DATA_DIR \
       $IMAGE_NAME
 fi

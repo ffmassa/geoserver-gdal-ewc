@@ -1,79 +1,191 @@
 NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-03-Oct-2024 17:13:05.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-45-generic
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.24+8-post-Ubuntu-1ubuntu322.04
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
-03-Oct-2024 17:13:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
-03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
-03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
-03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
-03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
-03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
-03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-03-Oct-2024 17:13:05.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
-03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
-03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
-03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
-03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
-03-Oct-2024 17:13:05.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
-03-Oct-2024 17:13:05.169 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/local/lib/jni:/usr/lib::/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
-03-Oct-2024 17:13:05.358 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
-03-Oct-2024 17:13:05.376 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [324] milliseconds
-03-Oct-2024 17:13:05.408 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-03-Oct-2024 17:13:05.408 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
-03-Oct-2024 17:13:05.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
-03-Oct-2024 17:13:05.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [126] ms
-03-Oct-2024 17:13:05.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
-03-Oct-2024 17:13:05.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [15] ms
-03-Oct-2024 17:13:05.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
-03-Oct-2024 17:13:05.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [15] ms
-03-Oct-2024 17:13:05.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/manager]
-03-Oct-2024 17:13:05.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/manager] has finished in [13] ms
-03-Oct-2024 17:13:05.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
-03-Oct-2024 17:13:05.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [86] ms
-03-Oct-2024 17:13:05.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/geoserver]
-03-Oct-2024 17:13:08.095 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-17:13:08 CONFIG [geoserver.logging] - Logging policy: Log4J2
-03-Oct-2024 17:13:08.487 INFO [main] it.geosolutions.imageio.gdalframework.GDALUtilities.loadGDAL GDAL Native Library loaded (version: 3.8.5)
-17:13:08 WARN   [geoserver.logging] - Could not find GeoServer logging.xml (or old services.xml) settings for logging
-17:13:09 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
-17:13:09 CONFIG [org.geoserver] - Loading catalog /gsdata
-17:13:09 CONFIG [org.geoserver] - Loaded style 'generic'
-17:13:09 CONFIG [org.geoserver] - Loaded style 'polygon'
-17:13:09 CONFIG [org.geoserver] - Loaded style 'line'
-17:13:09 CONFIG [org.geoserver] - Loaded style 'raster'
-17:13:09 CONFIG [org.geoserver] - Loaded style 'point'
-17:13:09 WARN   [org.geoserver] - No 'workspaces' directory found, unable to load any stores.
-17:13:09 CONFIG [org.geoserver] - Read catalog in 29.08 ms
-17:13:09 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--f2f8a72:192535f078d:-8000', enabled
-17:13:09 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl--f2f8a72:192535f078d:-7fff', enabled
-17:13:09 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl--f2f8a72:192535f078d:-7ffe', enabled
-17:13:09 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl--f2f8a72:192535f078d:-7ffd', enabled
-17:13:09 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/gsdata/gwc'.
-17:13:09 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
-17:13:09 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
-17:13:09 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
-17:13:09 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
-17:13:09 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
-17:13:09 CONFIG [gwc.layer] - Loaded 0 tile layers in 1.521 ms
-17:13:09 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
-17:13:10 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
-17:13:10 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
-17:13:10 WARN   [gce.imagemosaic] - Unable to set ordering between jp2 readers spi-it.geosolutions.imageio.plugins.jp2ecw.JP2GDALEcwImageReaderSpi:com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageReaderSpi
-17:13:11 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/gsdata/gwc'.
-17:13:11 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/gsdata/gwc'.
-17:13:12 WARN   [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
-17:13:12 CONFIG [geoserver.security] - Start reloading user/groups for service named default
-17:13:12 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
-03-Oct-2024 17:13:12.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/geoserver] has finished in [7,177] ms
-03-Oct-2024 17:13:12.847 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
-03-Oct-2024 17:13:12.858 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7481] milliseconds
+03-Oct-2024 21:12:00.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+03-Oct-2024 21:12:00.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+03-Oct-2024 21:12:00.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+03-Oct-2024 21:12:00.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Oct-2024 21:12:00.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-45-generic
+03-Oct-2024 21:12:00.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Oct-2024 21:12:00.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+03-Oct-2024 21:12:00.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.24+8-post-Ubuntu-1ubuntu322.04
+03-Oct-2024 21:12:00.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+03-Oct-2024 21:12:00.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+03-Oct-2024 21:12:00.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+03-Oct-2024 21:12:00.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Oct-2024 21:12:00.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Oct-2024 21:12:00.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Oct-2024 21:12:00.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Oct-2024 21:12:00.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+03-Oct-2024 21:12:00.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+03-Oct-2024 21:12:00.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+03-Oct-2024 21:12:00.253 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/local/lib/jni:/usr/lib::/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+03-Oct-2024 21:12:00.573 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+03-Oct-2024 21:12:00.608 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [623] milliseconds
+03-Oct-2024 21:12:00.669 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Oct-2024 21:12:00.669 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+03-Oct-2024 21:12:00.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+03-Oct-2024 21:12:00.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [285] ms
+03-Oct-2024 21:12:00.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+03-Oct-2024 21:12:00.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [25] ms
+03-Oct-2024 21:12:00.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+03-Oct-2024 21:12:01.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [49] ms
+03-Oct-2024 21:12:01.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/manager]
+03-Oct-2024 21:12:01.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/manager] has finished in [45] ms
+03-Oct-2024 21:12:01.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+03-Oct-2024 21:12:01.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [234] ms
+03-Oct-2024 21:12:01.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/geoserver]
+03-Oct-2024 21:12:07.665 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21:12:08 CONFIG [geoserver.logging] - Logging policy: Log4J2
+03-Oct-2024 21:12:09.019 INFO [main] it.geosolutions.imageio.gdalframework.GDALUtilities.loadGDAL GDAL Native Library loaded (version: 3.8.5)
+03 Oct 21:12:09 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+03 Oct 21:12:11 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loading catalog /gsdata
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'generic'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'population'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'poi'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'grass'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'green'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'dem'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'capitals'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'restricted'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'polygon'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'raster'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'pophatch'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'line'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'rain'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'point'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'burg'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded workspace 'ne'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'disputed'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'populated_places'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'coastline'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded style 'countries'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded workspace 'sf'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded workspace 'sde'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded workspace 'topp'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded workspace 'cite'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+03 Oct 21:12:12 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+03 Oct 21:12:13 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'streams'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'restricted'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'roads'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'archsites'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'countries'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer group 'world'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'poi'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer 'states'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+03 Oct 21:12:14 CONFIG [org.geoserver] - Read catalog in 2.413 s
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+03 Oct 21:12:14 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+03 Oct 21:12:14 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/gsdata/gwc'.
+03 Oct 21:12:14 CONFIG [gwc.config] - Create configuration file 'gwc/geowebcache.xml' from template jar:file:/usr/local/tomcat/webapps/geoserver/WEB-INF/lib/gwc-core-1.26.0.jar!/geowebcache_empty.xml
+03 Oct 21:12:15 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+03 Oct 21:12:15 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+03 Oct 21:12:15 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+03 Oct 21:12:15 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+03 Oct 21:12:15 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+03 Oct 21:12:15 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+03 Oct 21:12:15 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+03 Oct 21:12:15 CONFIG [gwc.layer] - Loaded 0 tile layers in 4.072 ms
+03 Oct 21:12:15 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+03 Oct 21:12:15 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /gsdata, using it as the default prefix.
+03 Oct 21:12:15 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+03 Oct 21:12:17 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+03 Oct 21:12:17 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+03 Oct 21:12:18 WARN   [gce.imagemosaic] - Unable to set ordering between jp2 readers spi-it.geosolutions.imageio.plugins.jp2ecw.JP2GDALEcwImageReaderSpi:com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageReaderSpi
+03 Oct 21:12:18 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/gsdata/gwc'.
+03 Oct 21:12:18 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/gsdata/gwc'.
+03 Oct 21:12:18 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+03 Oct 21:12:18 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+03 Oct 21:12:18 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+03 Oct 21:12:18 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+03 Oct 21:12:18 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+03 Oct 21:12:20 CONFIG [platform.resource] - Notifying ENTRY_CREATE change on /gsdata/gwc-layers. Created: 28, removed: 0, modified: 0
+03 Oct 21:12:22 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+03 Oct 21:12:22 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+03 Oct 21:12:22 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+03 Oct 21:12:22 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+03 Oct 21:12:22 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+03 Oct 21:12:22 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+03 Oct 21:12:22 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+03-Oct-2024 21:12:22.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/geoserver] has finished in [21,461] ms
+03-Oct-2024 21:12:22.788 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+03-Oct-2024 21:12:22.810 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [22201] milliseconds
+03 Oct 21:12:28 INFO   [geoserver.security] - Strong cryptography is available
