@@ -61,3 +61,14 @@ This project provides a complete GeoServer installation with advanced raster sup
 ## Acknowledgments
 
 Special thanks to the [docker-gdal-ecw project](https://github.com/elmoneto/docker-gdal-ecw/tree/main) for helping in setting up GDAL with ECW 5.5. Thanks to this project, I was able to set up the GeoServer 2.26.x environment using the latest version of the ECW library.
+
+## License
+
+This project is licensed under the **MIT License**. See the LICENSE file for more details.
+
+## Contact
+
+If you have any questions or need assistance, feel free to contact me:
+
+**Fernando**  
+Email: [fernando@winlogic.com.br](mailto:fernando@winlogic.com.br)
