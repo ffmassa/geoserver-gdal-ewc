@@ -17,18 +17,18 @@ To build the Docker image, follow these steps:
 
 1. Clone the repository to your local environment:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/ffmassa/geoserver-gdal-ewc.git
    cd geoserver-gdal-ewc
-   \`\`\`
+   ```
 
 2. Make sure the `ECWJP2SDKSetup_5.5.0.2268.bin` file has been downloaded and placed in the root of the project.
 
 3. Build the Docker image using the Docker CLI:
 
-   \`\`\`bash
+   ```bash
    docker build -t geoserver-gdal-ecw:latest .
-   \`\`\`
+   ```
 
    This command will create a Docker image named `geoserver-gdal-ecw`, based on the Dockerfile instructions, including GeoServer, GDAL, and the ECW SDK installation.
 
@@ -36,9 +36,9 @@ To build the Docker image, follow these steps:
 
 Once the Docker image has been created, you can start the container by running the following command:
 
-\`\`\`bash
+```bash
 docker run -d -p 8081:8081 -v /path/to/local/geoserver_data:/gsdata --name geoserver-container geoserver-gdal-ecw:latest
-\`\`\`
+```
 
 Here are the parameters explained:
 - `-p 8081:8081`: Maps the internal port 8081 of the container to port 8081 on the host.
@@ -50,9 +50,9 @@ Here are the parameters explained:
 
 Once the container is running, you can access the GeoServer interface in your browser:
 
-\`\`\`
+```
 http://localhost:8081/geoserver
-\`\`\`
+```
 
 ## Scripts Overview
 
@@ -62,41 +62,41 @@ In the `scripts` folder, you will find several Bash scripts designed to manage t
    This script is responsible for starting the GeoServer container. It checks if a container named `geoserver-gdal-ewc` is already running. If the container is stopped, it will be started again, and if it doesn’t exist, a new container will be created. It binds the local `data_dir` folder to `/gsdata` inside the container, and logs are redirected to `geoserver.out`.
 
    Usage:
-   \`\`\`bash
+   ```bash
    ./scripts/docker-run.sh
-   \`\`\`
+   ```
 
 2. **`docker-stop.sh`**:  
    This script stops and removes the running GeoServer container named `geoserver-gdal-ewc`. It first checks if the container is running before stopping and removing it.
 
    Usage:
-   \`\`\`bash
+   ```bash
    ./scripts/docker-stop.sh
-   \`\`\`
+   ```
 
 3. **`docker-build.sh`**:  
    This script builds a new Docker image based on the `Dockerfile`. It first checks if an image with the name `geoserver-gdal-ewc` exists and removes it before building a new one.
 
    Usage:
-   \`\`\`bash
+   ```bash
    ./scripts/docker-build.sh
-   \`\`\`
+   ```
 
 4. **`docker-bash.sh`**:  
    This script allows you to open a bash shell inside the running `geoserver-gdal-ewc` container. If the container is not running, it will prompt you to start the container first.
 
    Usage:
-   \`\`\`bash
+   ```bash
    ./scripts/docker-bash.sh
-   \`\`\`
+   ```
 
 5. **`docker-log.sh`**:  
    This script retrieves the current day’s GeoServer logs from the `geoserver-gdal-ewc` container. It reads the log file located at `/usr/local/tomcat/logs/localhost.<current-date>.log` and outputs it to the terminal. If the container is not running, it will notify you to start the container first.
 
    Usage:
-   \`\`\`bash
+   ```bash
    ./scripts/docker-log.sh
-   \`\`\`
+   ```
 
 ## `data_dir` Overview
 
