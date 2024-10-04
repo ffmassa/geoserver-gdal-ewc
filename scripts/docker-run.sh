@@ -9,8 +9,8 @@ PORT=8080
 # Nome da imagem
 IMAGE_NAME=geoserver-gdal-ewc
 
-# Diretório local para bind (pasta data_dir na raiz do projeto)
-HOST_DATA_DIR=${HOST_DATA_DIR:-../data_dir}
+# Diretório local para bind (use caminho absoluto)
+HOST_DATA_DIR=${HOST_DATA_DIR:-/home/fernando/winlogic/ffmassa/geoserver-gdal-ewc/data_dir}
 
 # Diretório de dados no container
 CONTAINER_DATA_DIR=/gsdata
